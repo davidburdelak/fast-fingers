@@ -27,11 +27,11 @@
 Enter each the given word within 3 seconds. To play again, just enter the current word. Your score will be reset.
 
 ## View desktop
-![fastfingers-dekstop](fastfingers_desktop.png)
+![fastfingers-dekstop](images/fastfingers_desktop.png)
 
 ## View mobile
 
-![fastfingers-mobile](fastfingers_mobile.png)
+![fastfingers-mobile](images/fastfingers_mobile.png)
 
 ## Author
 
