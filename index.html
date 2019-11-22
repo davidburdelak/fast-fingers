@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="shortcut icon" href="/images//icon.ico" type="image/x-icon">
+	<meta name="author" content="davidburdelak">
+	<meta name="robots" content="noydir">
+	<meta name="robots" content="noodp">
+	<meta name="Keywords" content="">
+	<meta name="description" content="">
+	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+	<title>fastFingers</title>
+	<link rel="stylesheet" style="text/css" href="styles/style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Hind&display=swap">
+</head>
+<body>
+	<header>
+		<h1><span>fast</span>Fingers</h1>
+	</header>
+	<div class="container">
+		<button id="button" value="click" onClick="button_start();">START</button>
+		<div class="border_box">
+			<div class="row">
+				<h2 id="current-word">Words</h2>
+				<input type="text" class="input_words" placeholder="Start typing..." id="word-input" autofocus>
+				<h4 class="game_over" id="message"></h4>
+				<div class="time_left">
+					<h3>Time Left:
+					<span id="time">0</span>
+					</h3>
+				</div>
+				<div class="score">
+					<h3>Score:
+					<span id="score">0</span>
+					</h3><br>
+				</div>
+			</div>
+		</div>
+        <div class="instruction">
+			<div class="border_box">
+				<h5>Instructions</h5>
+				<p>Enter each the given word within <span id="seconds">3</span> seconds:</p><p>To play again, just enter the current word. Your score will be reset</p>
+			</div>
+		</div>
+	</div>
+	<script src="js/main.js"></script>
+</body>
+</html>
