@@ -75,8 +75,8 @@ function init() {
 }
 
 function button_start() {
-	var button_begin = init();
-	return button_begin;
+	document.getElementById("word-input").focus(); 
+	init();
 }
 
 function timer(){
