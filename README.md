@@ -21,7 +21,7 @@
 
 ## Link
 
-[Click here](https://davidburdelak.pl/fast-fingers/)
+[Click here](https://davidburdelak.github.io/fast-fingers/)
 
 ## Description
 Enter each the given word within 3 seconds. To play again, just enter the current word. Your score will be reset.
